@@ -9,6 +9,7 @@ Features
 
 - Visa application enquiries that are made on the front end are saved to the database and retrieved on a table on the backend.
 - Form entries can be exported to csv from backend.
+- custom captcha feature on front end form to avoid spams.
 
 Front end demo
 
