@@ -1,0 +1,360 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  -webkit-box-sizing: border-box;
+
+  -moz-box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-font-smoothing: antialiased;
+
+  -o-font-smoothing: antialiased;
+
+  font-smoothing: antialiased;
+
+  text-rendering: optimizeLegibility;
+
+}
+
+
+
+body {
+
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+
+  font-weight: 100;
+
+  font-size: 12px;
+
+  line-height: 30px;
+
+  color: #777;
+
+  background: #ffd222;
+
+}
+
+
+
+.container {
+
+  max-width: 430px;
+
+  width: 100%;
+
+  margin: 0 auto;
+
+  position: relative;
+
+}
+
+
+
+#contact input {
+
+  width: 100%;
+
+  border: 1px solid #ccc;
+
+  background: #FFF;
+
+  margin: 0 0 5px;
+
+  padding: 10px;
+
+  font: 400 12px/18px "Roboto", Helvetica, Arial, sans-serif;
+
+}
+
+
+
+#contact input,
+
+#contact button[type="button"] {
+
+
+
+  font: 400 12px/18px "Roboto", Helvetica, Arial, sans-serif;
+
+}
+
+
+
+#contact select {
+
+   border: 1px solid #ccc;
+
+  background: #FFF;
+
+  font: 400 12px/17px "Roboto", Helvetica, Arial, sans-serif;
+
+}
+
+input[type="checkbox"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime-local"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="radio"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, select:focus, textarea:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #aaa !important;
+    outline: 2px solid transparent;
+      border: none !important;
+}
+
+.select2-container-multi .select2-choices {
+
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice {
+
+line-height: 25px !important;
+
+}
+
+.select2-search-choice-close {
+ 
+    top: 8px !important;
+    
+    }
+    
+ .select2-container-multi .select2-choices li input{
+   
+    border: none;
+}
+
+.select2-container-multi .select2-choices .select2-search-field {
+   
+  border: 1px solid #ccc !important;
+}
+
+.select2-search-field input{
+  
+background: transparent !important;
+border: none !important;
+outline: 0 !important;
+margin-left: 10px;
+box-shadow: none;
+  
+}
+
+
+.select2-search-field input:focus{
+  
+background: transparent !important;
+border: none !important;
+margin-left: 10px;
+
+  
+}
+
+#contact p{
+
+}
+
+
+#contact input[type="text"]:hover,
+
+#contact input[type="email"]:hover,
+
+#contact input[type="tel"]:hover,
+
+#contact input[type="url"]:hover,
+
+
+#contact select:hover,
+
+#contact textarea:hover {
+
+  -webkit-transition: border-color 0.3s ease-in-out;
+
+  -moz-transition: border-color 0.3s ease-in-out;
+
+  transition: border-color 0.3s ease-in-out;
+
+  border: 1px solid #aaa !important;
+
+}
+
+
+
+#contact button:hover {
+
+  opacity: 0.8;
+
+  -webkit-transition: background 0.3s ease-in-out;
+
+  -moz-transition: background 0.3s ease-in-out;
+
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+
+
+#contact {
+
+    background: #F9F9F9;
+    padding: 40px;
+    margin: 150px 100px 100px -155px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24) !important;
+    width: 170%;
+    min-width: 300px;
+}
+
+
+
+#contact h3 {
+
+  display: block;
+
+  text-align: center;
+
+  font-size: 30px;
+
+  font-weight: 500;
+
+  margin-bottom: 40px;
+
+}
+
+
+
+#contact h4 {
+
+  margin: 5px 0 15px;
+
+  display: block;
+
+  font-size: 17px;
+
+  font-weight: 600;
+
+}
+
+
+
+
+
+
+
+::-webkit-input-placeholder {
+
+  color: #888;
+
+}
+
+
+
+:-moz-placeholder {
+
+  color: #888;
+
+}
+
+
+
+::-moz-placeholder {
+
+  color: #888;
+
+}
+
+
+
+:-ms-input-placeholder {
+
+  color: #888;
+
+}
+
+
+
+/* Mark input boxes that gets an error on validation: */
+
+input.invalid {
+
+  background-color: #ffdddd !important;
+
+}
+
+
+
+select.highlight {
+
+    border: 1px solid #ffdddd !important;
+
+
+
+}
+
+
+
+button {
+
+  background-color: #ffd222;
+
+  color: #ffffff;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  cursor: pointer;
+
+}
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ff26a0 !important;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+
+}
+
+.colora{
+
+    background: #c02ef4 !important;
+    
+}
+
+.color1{
+
+    background: #2196F3 !important;
+     margin-left: 2px
+}
+
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+    font-size: 17px;
+}
